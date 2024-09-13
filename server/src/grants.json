@@ -1,0 +1,1322 @@
+[
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Student",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Student",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Student",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Student",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Student",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Student",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Student",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Student",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Student",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Student",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Student",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Student",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Student",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Student",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Student",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Student",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Student",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Student",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Student",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Student",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Teacher",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Teacher",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Teacher",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Teacher",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Teacher",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Teacher",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Teacher",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Teacher",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Teacher",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Teacher",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Teacher",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Teacher",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Teacher",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Teacher",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Teacher",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Teacher",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Teacher",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Teacher",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Teacher",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Teacher",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Course",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Course",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Course",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Course",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Course",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Course",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Course",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Course",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Course",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Course",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Course",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Course",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Course",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Course",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Course",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Course",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Course",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Course",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Course",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Course",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Attendance",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Attendance",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Attendance",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Attendance",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Attendance",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Attendance",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Attendance",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Attendance",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Attendance",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Attendance",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Attendance",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Attendance",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Attendance",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Attendance",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Attendance",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Attendance",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Attendance",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Attendance",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Attendance",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Attendance",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Exam",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Exam",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Exam",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Exam",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Exam",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Exam",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Exam",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Exam",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Exam",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Exam",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Exam",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Exam",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Exam",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Exam",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Exam",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Exam",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Exam",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Exam",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Exam",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Exam",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Fee",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Fee",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Fee",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Fee",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Fee",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Fee",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Fee",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Fee",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Fee",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Fee",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Fee",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Fee",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Fee",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Fee",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Fee",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Fee",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Fee",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Fee",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Fee",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Fee",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Announcement",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Announcement",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Announcement",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Announcement",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Announcement",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Announcement",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Announcement",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Announcement",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Announcement",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Announcement",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Announcement",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Announcement",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Announcement",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Announcement",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Announcement",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Announcement",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Announcement",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Announcement",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Announcement",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Announcement",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Event",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Event",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Event",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Event",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Event",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Event",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Event",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Event",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Event",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Event",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Event",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Event",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Event",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Event",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Event",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Event",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Event",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Event",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Event",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Event",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Role",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Role",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Role",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Role",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Role",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Role",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Role",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Role",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Role",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Role",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Role",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Role",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Role",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Role",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Role",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Role",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Role",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Role",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Role",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Role",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Document",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Document",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Document",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Document",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Document",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Document",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Document",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Document",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Document",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Document",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Document",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Document",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Document",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Document",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Document",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Document",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Document",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "student",
+    "resource": "Document",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "teacher",
+    "resource": "Document",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Document",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]

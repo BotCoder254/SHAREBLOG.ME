@@ -1,0 +1,150 @@
+datasource db {
+  provider = "mongodb"
+  url      = env("DB_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  createdAt DateTime @default(now())
+  email     String?  @unique
+  events    Event?
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  password  String
+  roles     Json
+  updatedAt DateTime @updatedAt
+  username  String   @unique
+}
+
+model Student {
+  address       String?
+  announcements Announcement?
+  attendances   Attendance[]
+  classField    String?
+  course        Course?       @relation(fields: [courseId], references: [id])
+  courseId      String?       @db.ObjectId
+  createdAt     DateTime      @default(now())
+  documents     Document[]
+  email         String?
+  exam          Exam?         @relation(fields: [examId], references: [id])
+  examId        String?       @db.ObjectId
+  fees          Fee[]
+  firstName     String?
+  grade         String?
+  id            String        @id @default(auto()) @map("_id") @db.ObjectId
+  lastName      String?
+  password      String
+  phone         String?
+  updatedAt     DateTime      @updatedAt
+}
+
+model Teacher {
+  courses            Course[]
+  createdAt          DateTime @default(now())
+  department         String?
+  email              String?
+  firstName          String?
+  id                 String   @id @default(auto()) @map("_id") @db.ObjectId
+  lastName           String?
+  performanceReviews String?
+  subjects           String?
+  updatedAt          DateTime @updatedAt
+}
+
+model Course {
+  createdAt     DateTime  @default(now())
+  description   String?
+  duration      String?
+  exams         Exam[]
+  id            String    @id @default(auto()) @map("_id") @db.ObjectId
+  name          String?
+  prerequisites String?
+  students      Student[]
+  teacher       Teacher?  @relation(fields: [teacherId], references: [id])
+  teacherId     String?   @db.ObjectId
+  updatedAt     DateTime  @updatedAt
+}
+
+model Attendance {
+  createdAt DateTime              @default(now())
+  date      DateTime?
+  id        String                @id @default(auto()) @map("_id") @db.ObjectId
+  status    EnumAttendanceStatus?
+  student   Student?              @relation(fields: [studentId], references: [id])
+  studentId String?               @db.ObjectId
+  updatedAt DateTime              @updatedAt
+}
+
+model Exam {
+  course      Course?   @relation(fields: [courseId], references: [id])
+  courseId    String?   @db.ObjectId
+  createdAt   DateTime  @default(now())
+  date        DateTime?
+  description String?
+  grades      String?
+  id          String    @id @default(auto()) @map("_id") @db.ObjectId
+  name        String?
+  students    Student[]
+  updatedAt   DateTime  @updatedAt
+}
+
+model Fee {
+  amount    Decimal?
+  createdAt DateTime       @default(now())
+  dueDate   DateTime?
+  id        String         @id @default(auto()) @map("_id") @db.ObjectId
+  status    EnumFeeStatus?
+  student   Student?       @relation(fields: [studentId], references: [id])
+  studentId String?        @db.ObjectId
+  updatedAt DateTime       @updatedAt
+}
+
+model Announcement {
+  audience   Student?  @relation(fields: [audienceId], references: [id])
+  audienceId String?   @unique @db.ObjectId
+  content    String?
+  createdAt  DateTime  @default(now())
+  date       DateTime?
+  id         String    @id @default(auto()) @map("_id") @db.ObjectId
+  title      String?
+  updatedAt  DateTime  @updatedAt
+}
+
+model Event {
+  createdAt      DateTime  @default(now())
+  date           DateTime?
+  description    String?
+  id             String    @id @default(auto()) @map("_id") @db.ObjectId
+  name           String?
+  participants   User?     @relation(fields: [participantsId], references: [id])
+  participantsId String?   @unique @db.ObjectId
+  updatedAt      DateTime  @updatedAt
+}
+
+model Role {
+  createdAt   DateTime @default(now())
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  name        String?
+  permissions String?
+  updatedAt   DateTime @updatedAt
+}
+
+model Document {
+  createdAt DateTime @default(now())
+  file      Json?
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  student   Student? @relation(fields: [studentId], references: [id])
+  studentId String?  @db.ObjectId
+  typeField String?
+  updatedAt DateTime @updatedAt
+}
+
+enum EnumAttendanceStatus {
+  Option1
+}
+
+enum EnumFeeStatus {
+  Option1
+}
